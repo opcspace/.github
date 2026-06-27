@@ -136,9 +136,10 @@ Shanghai · Beijing · Shenzhen · Hangzhou · Suzhou · Chengdu · Wuhan · Qin
 >
 > **Build together · Share openly · Be authentic · Grow sustainably**
 
-我们不追求一夜暴富，也不鼓吹辞职创业。OPC Space 相信：在 AI 时代，一个人可以凭借正确的工具、清晰的路径和真实的社区支持，建立一家可持续盈利的小公司。
 
-We don't chase get-rich-quick schemes or advocate reckless quitting. OPC Space believes that in the age of AI, one person can build a sustainable, profitable small business with the right tools, clear path, and authentic community support.
+OPC Space 相信：在 AI 时代，一个人可以凭借正确的工具、清晰的路径和真实的社区支持，建立一家可持续盈利的小公司。
+
+OPC Space believes that in the age of AI, one person can build a sustainable, profitable small business with the right tools, clear path, and authentic community support.
 
 ---
 
