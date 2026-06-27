@@ -1,9 +1,14 @@
 <div align="center">
 
-<!-- Hero Section -->
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=6366f1&height=200&section=header&text=OPC%20Space&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=AI%20%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8%E5%88%9B%E4%B8%9A%E7%A4%BE%E5%8C%BA%20%C2%B7%20AI%20One-Person%20Company%20Community&descSize=18&descAlignY=72" alt="OPC Space" />
+<!-- 纯 HTML/CSS Hero，不依赖外部图片服务 -->
+<div style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%); border-radius: 16px; padding: 48px 24px; margin: 20px 0; color: white; text-align: center;">
+  <div style="font-size: 64px; margin-bottom: 16px;">🚀</div>
+  <h1 style="margin: 0 0 12px 0; font-size: 48px; font-weight: 800;">OPC Space</h1>
+  <p style="margin: 0 0 8px 0; font-size: 20px; opacity: 0.95;">AI 一人公司创业社区</p>
+  <p style="margin: 0; font-size: 16px; opacity: 0.85;">AI One-Person Company Community</p>
+</div>
 
-<br><br>
+<br>
 
 [![Website](https://img.shields.io/badge/🌐%20%E5%AE%98%E7%BD%91-OPC%20Space-6366f1?style=for-the-badge)](https://opcspace.github.io/)
 [![WeChat](https://img.shields.io/badge/💬%20%E5%BE%AE%E4%BF%A1-aigcjiangye-07c160?style=for-the-badge)](https://opcspace.com.cn/)
@@ -12,10 +17,12 @@
 <br>
 
 <p>
-  <strong>访问官网时将根据浏览器语言自动切换</strong> · <strong>Auto language switching on visit</strong>
+  <strong>🌐 访问官网时将根据浏览器语言自动切换中文版 / 英文版</strong>
+  <br>
+  <strong>The website automatically switches between Chinese and English based on your browser language</strong>
 </p>
 
-<h2><a href="https://opcspace.github.io/">https://opcspace.github.io/</a></h2>
+<h2><a href="https://opcspace.github.io/" style="color: #6366f1; text-decoration: none;">https://opcspace.github.io/</a></h2>
 
 </div>
 
@@ -33,11 +40,26 @@ OPC Space is an open community for AI-powered One-Person Companies. We don't sel
 
 ---
 
-## 🧭 你能在这里找到什么 / What You'll Find Here
+## 🚀 快速开始 / Quick Start
 
 <div align="center">
 
-| 国内版 / Domestic | 海外版 / International |
+| 步骤 | 国内版 / Domestic | 海外版 / International |
+|:---:|---|---|
+| 1 | 访问 [opcspace.com.cn](https://opcspace.com.cn/) 获取产业报告 | Visit [opcspace.github.io](https://opcspace.github.io/) for community overview |
+| 2 | 使用 [路径匹配](https://opcspace.com.cn/) 找到适合你的城市 | Join discussions on [GitHub](https://github.com/opcspace) |
+| 3 | 查阅 [政策导航](https://opcspace.com.cn/) 了解补贴与园区 | Explore open-source skills below |
+| 4 | 加微信 **aigcjiangye** 进入社区 | Contact **ycw2309280700@126.com** |
+
+</div>
+
+---
+
+## 🧭 社区提供什么 / What the Community Offers
+
+<div align="center">
+
+| 国内版 | 海外版 |
 |---|---|
 | 📊 [产业报告](https://opcspace.com.cn/) — 31 省 372+ 园区全景研究 | 📊 [Industry Reports](https://opcspace.com.cn/) — 31 provinces, 372+ parks |
 | 🏛️ [政策导航](https://opcspace.com.cn/) — 算力券、模型券一键查询 | 🏛️ [Policy Navigator](https://opcspace.com.cn/) — Compute & model vouchers |
@@ -95,6 +117,7 @@ Shanghai · Beijing · Shenzhen · Hangzhou · Suzhou · Chengdu · Wuhan · Qin
 | 项目 / Project | 说明 / Description | 状态 / Status |
 |---|---|---|
 | [opcstartup-skill](https://github.com/opcspace/opcstartup-skill) | AI 一人公司创业技能库 / Startup skill library for AI one-person companies | 🟢 Active |
+| [minimalist-entrepreneur-zh](https://github.com/opcspace/minimalist-entrepreneur-zh) | 《极简企业家》中文 Claude Code 技能库 / Chinese Claude Code skills based on The Minimalist Entrepreneur | 🟢 Active |
 
 ---
 
@@ -105,6 +128,18 @@ Shanghai · Beijing · Shenzhen · Hangzhou · Suzhou · Chengdu · Wuhan · Qin
 - 🌐 国内官网 / China Site: [https://opcspace.com.cn/](https://opcspace.com.cn/)
 - 🌐 海外官网 / Global Site: [https://opcspace.yej712144.workers.dev/](https://opcspace.yej712144.workers.dev/)
 - ⭐ GitHub: [https://github.com/opcspace](https://github.com/opcspace)
+
+---
+
+## 💡 社区价值观 / Community Values
+
+> **共建 · 共享 · 真实 · 可持续**
+>
+> **Build together · Share openly · Be authentic · Grow sustainably**
+
+我们不追求一夜暴富，也不鼓吹辞职创业。OPC Space 相信：在 AI 时代，一个人可以凭借正确的工具、清晰的路径和真实的社区支持，建立一家可持续盈利的小公司。
+
+We don't chase get-rich-quick schemes or advocate reckless quitting. OPC Space believes that in the age of AI, one person can build a sustainable, profitable small business with the right tools, clear path, and authentic community support.
 
 ---
 
