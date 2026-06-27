@@ -22,8 +22,6 @@
   <strong>The website automatically switches between Chinese and English based on your browser language</strong>
 </p>
 
-<h2><a href="https://opcspace.github.io/" style="color: #6366f1; text-decoration: none;">https://opcspace.github.io/</a></h2>
-
 </div>
 
 ---
@@ -125,6 +123,7 @@ Shanghai · Beijing · Shenzhen · Hangzhou · Suzhou · Chengdu · Wuhan · Qin
 
 - 💬 微信 / WeChat: **aigcjiangye**
 - 📧 邮箱 / Email: **ycw2309280700@126.com**
+- 📧 Agent Email：**opcspace@agent.qq.com**
 - 🌐 国内官网 / China Site: [https://opcspace.com.cn/](https://opcspace.com.cn/)
 - 🌐 海外官网 / Global Site: [https://opcspace.yej712144.workers.dev/](https://opcspace.yej712144.workers.dev/)
 - ⭐ GitHub: [https://github.com/opcspace](https://github.com/opcspace)
