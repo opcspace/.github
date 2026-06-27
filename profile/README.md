@@ -2,7 +2,6 @@
 
 <!-- 纯 HTML/CSS Hero，不依赖外部图片服务 -->
 <div style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%); border-radius: 16px; padding: 48px 24px; margin: 20px 0; color: white; text-align: center;">
-  <div style="font-size: 64px; margin-bottom: 16px;">🚀</div>
   <h1 style="margin: 0 0 12px 0; font-size: 48px; font-weight: 800;">OPC Space</h1>
   <p style="margin: 0 0 8px 0; font-size: 20px; opacity: 0.95;">AI 一人公司创业社区</p>
   <p style="margin: 0; font-size: 16px; opacity: 0.85;">AI One-Person Company Community</p>
@@ -124,6 +123,7 @@ Shanghai · Beijing · Shenzhen · Hangzhou · Suzhou · Chengdu · Wuhan · Qin
 - 💬 微信 / WeChat: **aigcjiangye**
 - 📧 邮箱 / Email: **ycw2309280700@126.com**
 - 📧 Agent Email：**opcspace@agent.qq.com**
+  「接入：请阅读 https://agent.qq.com/doc/cli-setup.md 文档，按照步骤为我安装并配置 Agent Mail CLI。」
 - 🌐 国内官网 / China Site: [https://opcspace.com.cn/](https://opcspace.com.cn/)
 - 🌐 海外官网 / Global Site: [https://opcspace.yej712144.workers.dev/](https://opcspace.yej712144.workers.dev/)
 - ⭐ GitHub: [https://github.com/opcspace](https://github.com/opcspace)
