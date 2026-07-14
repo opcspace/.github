@@ -1,0 +1,33 @@
+name: Monthly flagship release cycle
+
+on:
+  schedule:
+    - cron: "0 2 1 * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  open-release-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create monthly release review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          month="$(date -u +%Y-%m)"
+          title="[Release] ${month} 旗舰仓库月度发布审查"
+          if gh issue list --repo opcspace/.github --state all --search "${title} in:title" --json title --jq '.[].title' | grep -Fxq "${title}"; then
+            exit 0
+          fi
+          gh issue create --repo opcspace/.github --title "${title}" --label maintenance --body "$(printf '%s\n' \
+            '依次审查三个旗舰仓库是否有用户可感知变化：' \
+            '' \
+            '- [ ] opcstartup-skill：更新 CHANGELOG/VERSION，发布或记录无发布' \
+            '- [ ] Codex-Guide：运行检查，更新 CHANGELOG/VERSION，发布或记录无发布' \
+            '- [ ] WorkBuddy-Guide：运行检查，更新 CHANGELOG/VERSION，发布或记录无发布' \
+            '- [ ] 汇总新增、修复、已知问题和贡献者' \
+            '- [ ] 更新组织月度维护记录' \
+            '' \
+            '规则：没有真实变化时不制造空版本，但必须在本 Issue 记录跳过原因。')"

@@ -1,0 +1,31 @@
+name: 文档纠错
+description: 报告过期链接、错误事实、表述不清或无法复现的步骤
+title: "[Docs] "
+labels: [documentation, triage]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 页面或文件
+      placeholder: URL 或仓库路径
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题
+      description: 请说明哪里不准确、过期或难以执行。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据与建议
+      description: 易变化事实请附官方来源、核查日期和建议修改。
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已删除密钥、个人信息和未公开客户资料。
+          required: true

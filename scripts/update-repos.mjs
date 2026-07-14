@@ -14,6 +14,15 @@ const descriptions = {
   'opcspace.github.io': 'OPCspace 组织官网'
 };
 
+const governance = {
+  'opcstartup-skill': { status: '**旗舰**', priority: 1 },
+  'Codex-Guide': { status: '**旗舰**', priority: 2 },
+  'WorkBuddy-Guide': { status: '**旗舰**', priority: 3 },
+  'opc-miaoda-skills': { status: '实验', priority: 4 },
+  'minimalist-entrepreneur-zh': { status: '知识归档', priority: 5 },
+  'opcspace.github.io': { status: '基础设施', priority: 6 }
+};
+
 function escapeCell(value = '') {
   return String(value).replace(/\|/g, '\\|').replace(/\r?\n/g, ' ').trim();
 }
@@ -33,21 +42,21 @@ if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await respon
 
 const repos = (await response.json())
   .filter(repo => !repo.archived && repo.name !== '.github')
-  .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+  .sort((a, b) => (governance[a.name]?.priority || 99) - (governance[b.name]?.priority || 99))
   .slice(0, 8);
 
 const rows = repos.map(repo => {
   const description = descriptions[repo.name] || repo.description || 'OPCspace 开源项目';
-  const stack = repo.language || '—';
+  const status = governance[repo.name]?.status || '实验';
   const updated = repo.pushed_at.slice(0, 10);
-  return `| [${escapeCell(repo.name)}](${repo.html_url}) | ${escapeCell(description)} | ${escapeCell(stack)} | ${updated} |`;
+  return `| [${escapeCell(repo.name)}](${repo.html_url}) | ${status} | ${escapeCell(description)} | ${updated} |`;
 });
 
 const synced = new Date().toISOString().slice(0, 10);
 const block = [
   startMarker,
-  '| Repository | Description | Stack | Updated |',
-  '|---|---|---:|---:|',
+  '| Repository | Status | Description | Updated |',
+  '|---|---|---|---:|',
   ...rows,
   '',
   `<sub>Last synced: ${synced} UTC · [Browse all repositories](https://github.com/orgs/${owner}/repositories)</sub>`,
@@ -62,4 +71,3 @@ if (start < 0 || end < 0 || end < start) throw new Error('Repository list marker
 const updatedReadme = `${readme.slice(0, start)}${block}${readme.slice(end + endMarker.length)}`;
 fs.writeFileSync(readmePath, updatedReadme);
 console.log(`Updated ${repos.length} repositories in profile/README.md`);
-

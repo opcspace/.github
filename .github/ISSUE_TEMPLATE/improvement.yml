@@ -1,0 +1,28 @@
+name: 改进建议
+description: 提议新的 Skill、模板、工作流或社区改进
+title: "[Proposal] "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题
+      description: 请描述过去发生过的真实问题，而不只是希望增加的功能。
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: 谁遇到了这个问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案与最小范围
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据、替代方案与验证方法

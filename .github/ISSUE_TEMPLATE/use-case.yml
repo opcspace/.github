@@ -1,0 +1,47 @@
+name: 真实案例征集
+description: 分享你如何使用 OPCspace 项目完成真实任务
+title: "[Case] "
+labels: [case-study, community]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: 使用的项目
+      options:
+        - opcstartup-skill
+        - Codex-Guide
+        - WorkBuddy-Guide
+        - opc-miaoda-skills
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景与目标
+      description: 你原来要解决什么问题？请勿披露客户隐私。
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 使用过程
+      description: 使用了哪些页面、Skill、模板或工作流？
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 可验证结果
+      description: 提供交付物、时间变化、错误修复或其他可以核查的结果。
+    validations:
+      required: true
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: 授权与隐私
+      options:
+        - label: 内容已脱敏，我有权分享所附材料。
+          required: true
+        - label: 我同意 OPCspace 在署名并链接本 Issue 的前提下整理为公开案例。
+          required: false

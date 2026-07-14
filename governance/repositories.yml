@@ -1,0 +1,45 @@
+version: 1
+canonical_brand:
+  name: OPCspace
+  positioning_zh: 面向 AI 一人公司的创业决策与实践社区
+  website_zh: https://opcspace.com.cn/
+  website_global: https://opcspace.github.io/
+  github: https://github.com/opcspace
+  discussions: https://github.com/orgs/opcspace/discussions
+
+repositories:
+  opcstartup-skill:
+    class: flagship
+    version: 0.1.0
+    release_cycle: monthly
+    topics: [opc, solopreneur, ai-agent, agent-skills, entrepreneurship, startup, chinese]
+  Codex-Guide:
+    class: flagship
+    version: 1.0.0
+    release_cycle: monthly
+    topics: [openai-codex, codex, ai-coding, knowledge-base, developer-tools, chinese]
+  WorkBuddy-Guide:
+    class: flagship
+    version: 1.0.0
+    release_cycle: monthly
+    topics: [workbuddy, ai-agent, ai-office, automation, knowledge-base, chinese]
+  opc-miaoda-skills:
+    class: experimental
+    version: 0.1.0
+    release_cycle: when-ready
+    topics: [miaoda, no-code, ai-agent, agent-skills, app-builder, chinese]
+  minimalist-entrepreneur-zh:
+    class: knowledge-archive
+    version: 0.1.0
+    release_cycle: maintenance-only
+    topics: [minimalist-entrepreneur, entrepreneurship, claude-code, skills, chinese]
+  opcspace.github.io:
+    class: infrastructure
+    version: 0.1.0
+    release_cycle: when-needed
+    topics: [opcspace, github-pages, community, solopreneur]
+  .github:
+    class: infrastructure
+    version: 0.1.0
+    release_cycle: monthly
+    topics: [community-health, governance, open-source, opcspace]
