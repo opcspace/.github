@@ -3,7 +3,7 @@ canonical_brand:
   name: OPCspace
   positioning_zh: 面向 AI 一人公司的创业决策与实践社区
   website_zh: https://opcspace.com.cn/
-  website_global: https://opcspace.github.io/
+  website_global: https://opc-space.com/
   github: https://github.com/opcspace
   discussions: https://github.com/orgs/opcspace/discussions
 
@@ -33,7 +33,7 @@ repositories:
     version: 0.1.0
     release_cycle: maintenance-only
     topics: [minimalist-entrepreneur, entrepreneurship, claude-code, skills, chinese]
-  opcspace.github.io:
+  opcspace-global:
     class: infrastructure
     version: 0.1.0
     release_cycle: when-needed

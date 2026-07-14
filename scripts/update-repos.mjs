@@ -11,7 +11,7 @@ const descriptions = {
   'opc-miaoda-skills': '面向一人公司和非技术用户的秒哒应用创建 Skills',
   'opcstartup-skill': 'AI 一人公司创业执行型 Skills',
   'minimalist-entrepreneur-zh': '《极简企业家》中文 Claude Code 技能库',
-  'opcspace.github.io': 'OPCspace 组织官网'
+  'opcspace-global': 'OPCspace 组织官网'
 };
 
 const governance = {
@@ -20,7 +20,7 @@ const governance = {
   'WorkBuddy-Guide': { status: '**旗舰**', priority: 3 },
   'opc-miaoda-skills': { status: '实验', priority: 4 },
   'minimalist-entrepreneur-zh': { status: '知识归档', priority: 5 },
-  'opcspace.github.io': { status: '基础设施', priority: 6 }
+  'opcspace-global': { status: '基础设施', priority: 6 }
 };
 
 function escapeCell(value = '') {
