@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 
 const owner = process.env.GITHUB_REPOSITORY_OWNER || 'opcspace';
-const readmePath = new URL('../profile/README.md', import.meta.url);
+const profileReadmePath = new URL('../profile/README.md', import.meta.url);
+const repositoryReadmePath = new URL('../README.md', import.meta.url);
 const startMarker = '<!-- REPO-LIST:START -->';
 const endMarker = '<!-- REPO-LIST:END -->';
 
@@ -63,11 +64,12 @@ const block = [
   endMarker
 ].join('\n');
 
-const readme = fs.readFileSync(readmePath, 'utf8');
+const readme = fs.readFileSync(profileReadmePath, 'utf8');
 const start = readme.indexOf(startMarker);
 const end = readme.indexOf(endMarker);
 if (start < 0 || end < 0 || end < start) throw new Error('Repository list markers are missing or invalid');
 
 const updatedReadme = `${readme.slice(0, start)}${block}${readme.slice(end + endMarker.length)}`;
-fs.writeFileSync(readmePath, updatedReadme);
+fs.writeFileSync(profileReadmePath, updatedReadme);
+fs.writeFileSync(repositoryReadmePath, updatedReadme);
 console.log(`Updated ${repos.length} repositories in profile/README.md`);
