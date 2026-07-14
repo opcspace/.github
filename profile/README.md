@@ -2,11 +2,13 @@
 
 # OPCspace
 
-### 开源 AI 工作系统 · 实践知识库 · AI 原生组织社区
+### AI 原生个体与小型组织的创业操作系统
 
 **Open-source AI Workflows · Practical Knowledge Bases · AI-native Organization Community**
 
-我们不只讨论“一人公司”，也把真实使用过的方法、知识和工作流沉淀成任何人都能阅读、复用与共同改进的开放资产。
+> **把能力变成一门可以独立经营的生意。**
+
+OPCspace 不只讨论“一人公司”，而是一套帮助有专业经验的普通人借助 AI，把个人能力沉淀为可独立获客、交付并持续经营的小生意的操作系统。我们把真实使用过的方法、知识和工作流，变成任何人都能阅读、复用与共同改进的开放资产。
 
 [![Website](https://img.shields.io/badge/Website-opcspace.github.io-6C63FF?style=for-the-badge)](https://opcspace.github.io/)
 [![Knowledge Bases](https://img.shields.io/badge/Knowledge_Bases-中文实践库-9FE870?style=for-the-badge)](#实践知识库--knowledge-bases)
