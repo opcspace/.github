@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OPCspace 社区讨论
+    url: https://github.com/orgs/opcspace/discussions
+    about: 跨项目问题、想法交流和社区建议请进入 Discussions。
+  - name: 安全问题
+    url: https://github.com/opcspace/.github/blob/main/SECURITY.md
+    about: 请不要公开披露密钥、个人信息或可利用漏洞。
+  - name: 商务合作
+    url: https://opcspace.com.cn/cooperation/
+    about: 课程、训练营、园区、机构和工具合作请使用官网入口。
