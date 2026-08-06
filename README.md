@@ -122,7 +122,7 @@ OPCspace 当前集中维护三个旗舰项目。它们拥有明确路线图、�
 | [opcspace-global](https://github.com/opcspace/opcspace-global) | 基础设施 | OPCspace 组织官网 | 2026-07-14 |
 | [CodexUI](https://github.com/opcspace/CodexUI) | 实验 | Open-source Codex UI skin skill with reference-driven redesign, IP themes, local source installation, rollback, and visual tests. | 2026-07-16 |
 
-<sub>Last synced: 2026-08-05 UTC · [Browse all repositories](https://github.com/orgs/opcspace/repositories)</sub>
+<sub>Last synced: 2026-08-06 UTC · [Browse all repositories](https://github.com/orgs/opcspace/repositories)</sub>
 <!-- REPO-LIST:END -->
 
 ---
