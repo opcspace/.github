@@ -120,9 +120,10 @@ OPCspace 当前集中维护三个旗舰项目。它们拥有明确路线图、�
 | [opc-miaoda-skills](https://github.com/opcspace/opc-miaoda-skills) | 实验 | 面向一人公司和非技术用户的秒哒应用创建 Skills | 2026-07-14 |
 | [minimalist-entrepreneur-zh](https://github.com/opcspace/minimalist-entrepreneur-zh) | 知识归档 | 《极简企业家》中文 Claude Code 技能库 | 2026-07-14 |
 | [opcspace-global](https://github.com/opcspace/opcspace-global) | 基础设施 | OPCspace 组织官网 | 2026-07-14 |
+| [blender-seedance-skills](https://github.com/opcspace/blender-seedance-skills) | 实验 | Codex skills for Blender modeling, white-model rendering, and Seedance video workflows | 2026-08-08 |
 | [CodexUI](https://github.com/opcspace/CodexUI) | 实验 | Open-source Codex UI skin skill with reference-driven redesign, IP themes, local source installation, rollback, and visual tests. | 2026-07-16 |
 
-<sub>Last synced: 2026-08-08 UTC · [Browse all repositories](https://github.com/orgs/opcspace/repositories)</sub>
+<sub>Last synced: 2026-08-09 UTC · [Browse all repositories](https://github.com/orgs/opcspace/repositories)</sub>
 <!-- REPO-LIST:END -->
 
 ---
