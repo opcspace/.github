@@ -123,7 +123,7 @@ OPCspace 当前集中维护三个旗舰项目。它们拥有明确路线图、�
 | [blender-seedance-skills](https://github.com/opcspace/blender-seedance-skills) | 实验 | Codex skills for Blender modeling, white-model rendering, and Seedance video workflows | 2026-08-08 |
 | [CodexUI](https://github.com/opcspace/CodexUI) | 实验 | Open-source Codex UI skin skill with reference-driven redesign, IP themes, local source installation, rollback, and visual tests. | 2026-07-16 |
 
-<sub>Last synced: 2026-08-24 UTC · [Browse all repositories](https://github.com/orgs/opcspace/repositories)</sub>
+<sub>Last synced: 2026-08-25 UTC · [Browse all repositories](https://github.com/orgs/opcspace/repositories)</sub>
 <!-- REPO-LIST:END -->
 
 ---
